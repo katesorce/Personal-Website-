@@ -1,0 +1,78 @@
+/* STYLE SECTIONING TAGS */
+* {
+  margin: 4px;
+  padding: 4px;
+}
+
+main {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+body {
+  background-color: #252973; 
+  text-align: center;
+}
+
+/* STYLE TEXT */
+  h1 {
+  color: lightseagreen;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-align: center; 
+}
+
+h2 {
+  color: coral;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: left;  
+  margin-top: .3in;
+}
+
+p {
+  color:white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+/* STYLE IMAGES */
+img {
+  max-width: 40%;
+  max-height: 50%;
+  border: 2px solid white;
+}
+
+#chef {
+  border-radius: 20%;
+} 
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: lightseagreen;
+  overflow: hidden;
+  padding: 1em;
+  margin: 1em;
+}
+
+li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #43D6B9;
+}
